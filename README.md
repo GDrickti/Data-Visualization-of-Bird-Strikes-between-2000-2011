@@ -2,6 +2,7 @@
 This project analyzes bird strike data on aircraft using R, providing insights through visualizations. It includes bar charts, line charts, histograms, and pie charts to depict trends, costs, impacts, and patterns related to bird strikes. The goal is to help aviation stakeholders understand and mitigate bird strike incidents effectively.
 
 
+
 ![image](https://github.com/GDrickti/Data-Visualization-of-Bird-Strikes-between-2000-2011/assets/116678835/0276cd06-14bd-48e7-8f68-3cda96ce6939)
 
 # Description of the Graph: Bird Strikes Over the Years
@@ -111,6 +112,155 @@ Most bird strikes happen during the “Approach” phase of flight.
 
 Pilots and aviation authorities need to be aware of this critical phase to implement effective strategies for bird strike prevention and safety.
 
-!Bird Strikes by Flight Phase
 
-Please note that addressing bird strikes is crucial for aviation safety, and understanding their timing helps in implementing preventive measures. 
+![image](https://github.com/GDrickti/Data-Visualization-of-Bird-Strikes-between-2000-2011/assets/116678835/f3df5941-1104-4ef7-b3c5-73bc92026a75)
+
+Provides insights into the altitudes at which bird strikes occur. Here’s the description:
+
+X-Axis (Altitude in Feet):
+The horizontal axis represents the altitude of airplanes during bird strikes.
+
+It ranges from 0 to over 15,000 feet, with increments of 2,500 feet.
+
+Y-Axis (Count of Strikes):
+The vertical axis represents the count of bird strikes.
+
+The tallest bar is at the lowest altitude range (0 feet), indicating that the majority of bird strikes happen at ground level or during takeoff and landing.
+
+Trend:
+As altitude increases, the number of bird strikes decreases significantly.
+
+This information is crucial for aviation safety and can guide preventive measures.
+
+![image](https://github.com/GDrickti/Data-Visualization-of-Bird-Strikes-between-2000-2011/assets/116678835/e9c984ce-bb95-4fb2-9684-7363e998091c)
+
+Provides insights into the altitudes at which bird strikes occur. Here’s the description:
+
+X-Axis (Altitude in Feet):
+The horizontal axis represents the altitude of airplanes during bird strikes.
+
+It ranges from 0 to over 15,000 feet, with increments of 2,500 feet.
+
+Y-Axis (Count of Strikes):
+The vertical axis represents the count of bird strikes.
+
+The tallest bar is at the lowest altitude range (0 feet), indicating that the majority of bird strikes happen at ground level or during takeoff and landing.
+
+Trend:
+As altitude increases, the number of bird strikes decreases significantly.
+
+This information is crucial for aviation safety and can guide preventive measures.
+
+![image](https://github.com/GDrickti/Data-Visualization-of-Bird-Strikes-between-2000-2011/assets/116678835/cdd7e666-f080-4269-b4dc-0f0853abe8d7)
+
+# Description of this Graph:Average Altitude in Different Flight Phases at the Time of Strike
+provides insights into the altitudes associated with different phases of flight. Here’s the description:
+
+X-Axis (Flight Phase):
+The horizontal axis represents various phases of a flight.
+
+The flight phases include: Landing Roll, Parked, Takeoff Run, Approach, Climb, Descent, and N/A (not available or not applicable).
+
+Y-Axis (Average Altitude in Feet):
+The vertical axis represents the average altitude (in feet) during each flight phase.
+
+The scale ranges from 0 to approximately 6000 feet.
+
+Trends:
+The ‘Climb’ phase has the highest average altitude, reaching just below 6000 feet.
+
+Other phases have significantly lower average altitudes:
+
+‘Descent’ and ‘Takeoff Run’ are roughly between 1000 and 2000 feet.
+
+‘Landing Roll,’ ‘Parked,’ and ‘Approach’ have very short bars close to zero altitude.
+
+The ‘N/A’ category indicates missing or unavailable data.
+
+![image](https://github.com/GDrickti/Data-Visualization-of-Bird-Strikes-between-2000-2011/assets/116678835/19ca4fed-9af4-441c-aca5-bf9cae313cf7)
+
+# Description of the Pie Chart: Effect of Bird Strikes & Impact on Flight
+
+Visually represents the distribution of outcomes resulting from bird strikes during flights. Here’s the description:
+
+Segments:
+
+The pie chart is divided into six segments, each representing a different type of impact caused by bird strikes.
+
+The segments are color-coded and correspond to the legend on the right side.
+
+Impact Types:
+
+None (Green): This segment is the largest, indicating that most bird strikes do not result in significant impact.
+
+Aborted Take-off: A smaller segment representing cases where take-off was halted due to bird strikes.
+
+Engine Shut Down: Another small segment indicating instances where engine shutdown occurred.
+
+Other: A minor segment for miscellaneous impacts not covered by the other categories.
+
+Precautionary Landing: A small segment representing cases where pilots made precautionary landings.
+
+NA (Not Available or Not Applicable): A segment with missing or unavailable data.
+
+![image](https://github.com/GDrickti/Data-Visualization-of-Bird-Strikes-between-2000-2011/assets/116678835/eb143ed9-6dbe-48fd-9640-3bbc60417127)
+
+# Description of the Graph: Effect of Strike at Different Altitude
+
+Visually represents the relationship between bird strikes and altitude during flights. Here’s the description:
+
+X-Axis (Altitude in Feet):
+
+The horizontal axis represents the altitude of airplanes during bird strikes.
+
+Altitude values range from 0 to approximately 15,000 feet.
+
+Y-Axis (Impact Severity):
+
+The vertical axis represents the severity of impact resulting from bird strikes.
+
+The impact severity categories include:
+
+None: Most data points are clustered at lower altitudes, indicating that the majority of bird strikes have no significant impact.
+
+Precautionary Landing: Some data points occur at various altitudes, suggesting that certain strikes lead to precautionary landings.
+
+Other: A few data points represent other impact scenarios.
+
+NA (Not Available or Not Applicable): Indicates missing or unavailable data.
+
+Engine Shut Down and Aborted Take-off: Very few data points at specific altitudes, indicating rare occurrences.
+
+![image](https://github.com/GDrickti/Data-Visualization-of-Bird-Strikes-between-2000-2011/assets/116678835/00684b98-b69b-4129-ab3d-bfadd11d3912)
+
+# Description of the Graph: Bird Strikes by Pilot Warnings
+
+Provides insights into the impact of bird strikes during flights based on whether pilots were warned about the potential for bird strikes. Here’s the description:
+
+X-Axis (Pilot Warning):
+The horizontal axis represents whether pilots were informed or warned about bird strikes.
+
+Categories include:
+
+‘N’: No warning
+
+‘Y’: Yes, there was a warning
+
+‘NA’: Not applicable or no data available
+
+Y-Axis (Total Strikes):
+The vertical axis represents the total number of bird strikes.
+
+The scale ranges from 0 to approximately 30,000 strikes.
+
+To answer your questions:
+
+Were Pilots Informed?:
+
+Yes, pilots were informed (‘Y’) in some cases, and in other cases, they were not informed (‘N’) about bird strikes.
+
+Prior Warning and Effect of Strike Relation:
+
+The graph shows that the total number of strikes when pilots were not warned (‘N’) is slightly higher than when they were warned (‘Y’).
+
+However, without additional context or statistical analysis, it’s challenging to determine the exact relationship between prior warnings and the effect on the frequency or severity of bird strikes.
