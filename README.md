@@ -253,7 +253,7 @@ The vertical axis represents the total number of bird strikes.
 
 The scale ranges from 0 to approximately 30,000 strikes.
 
-To answer your questions:
+To answer the questions:
 
 Were Pilots Informed?:
 
